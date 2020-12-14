@@ -10,8 +10,8 @@ SI 507 Final Project Jin-Seo Bae (jinbae)
 
     a. Billboard Scraping
 	
-        * Sorting Order: rank, track name, and aritist name
-        * number of records to display: 10 records, 30 records, 50 records, and 100 records
+        * Sorting Order: rank, song title, and aritist name
+        * number of songs to display: 10 songs, 30 songs, 50 songs, and 100 songs
 		
     b. Spotify API
 	
