@@ -5,7 +5,7 @@ SI 507 Final Project Jin-Seo Bae (jinbae)
 1. Both <strong>API</strong> and <strong>Secret Keys</strong> are in the main file called "main_FP.py".
 2. If user want to get most recent ranking and popularity scores from <strong>Spotify</strong>, user should remove csv file in this regitory and <strong> uncomment get_spotify_csv() </strong> and re-run main_FP.py.
 3. Then, user should run "flask_play.py" file in the terminal and open http://127.0.0.1:5000/ link.
-4. This will lead user to main page of my final project. ![main page](https://drive.google.com/uc?export=view&id=115MMdl-JHBVcwXKiz4Nwd_prqMSCONO-)
+4. This will lead user to main page of my final project. ![main page](https://drive.google.com/uc?export=view&id=1YSbphSsSC6udiUhwXE8RVct7oB__Xylr)
 5. User can choose few different things.
 
     a. Billboard Scraping
@@ -18,7 +18,7 @@ SI 507 Final Project Jin-Seo Bae (jinbae)
         * Choose Ranking number from Billboard: (any number between 1 and 100)
 			-This feature help user to get detailed information about the artist that ranked number in Billboard
         * Check option for plot result
-![choose](https://drive.google.com/uc?export=view&id=1OssHMg-P_ohceR_rUmPetKpesNpnZ9b2)
+![choose](https://drive.google.com/uc?export=view&id=1-wlROxQMyCxeLYUAQ_VJQvd1oEZv9Vfa)
 
 6. For Billboard Scraping, user can see different pictures of artists; number of records and sorting order that they selected from the main page.
 7. For Spotify API part, user can see detailed information about an artist by typing their ranking from the billboard.
