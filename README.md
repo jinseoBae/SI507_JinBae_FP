@@ -18,7 +18,7 @@ SI 507 Final Project Jin-Seo Bae (jinbae)
         * Choose Ranking number from Billboard: (any number between 1 and 100)
 			-This feature help user to get detailed information about the artist that ranked number in Billboard
         * Check option for plot result
-![choose](https://drive.google.com/uc?export=view&id=1iur-TcPlKvev9QjycW-19G6LfWrWQiOv)
+![choose](https://drive.google.com/uc?export=view&id=1OssHMg-P_ohceR_rUmPetKpesNpnZ9b2)
 
 6. For Billboard Scraping, user can see different pictures of artists; number of records and sorting order that they selected from the main page.
 7. For Spotify API part, user can see detailed information about an artist by typing their ranking from the billboard.
