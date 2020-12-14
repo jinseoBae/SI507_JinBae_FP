@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF8"/>
+    <title>Top 100 Billboard</title>
+
+<style> 
+    .center{
+      text-align: center;
+      }  
+    td{
+        text-align: center;
+    }
+    table{
+      border: 10px solid orange;
+    }
+    img{
+      padding: 15px 15px 15px 15px; 
+      border: 10px solid orange;
+    }
+    body{
+      font-family:Arial, Helvetica, sans-serif;
+      background-color:cornsilk;
+    }  
+    th{
+      font-weight: 700;
+      background-color: orange;
+      color:black;}
+
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: black;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    .text{
+      text-align: center;
+      font-weight:bold
+      }
+    .numbertext {
+      color: black;
+      font-size: 12px;
+      padding: 8px 12px;
+    }
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: black;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+    background-color: orange;
+    }
+
+    .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+    @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+    </style>
+  </head>
+
+<body>
+    <h1 class="center">✨TOP Billboard SONGS 👩🧑‍🎙</h1>
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 9</div>
+          <div class="center"><img src="https://static.billboard.com/files/media/02-hot-100-no-1-songs-debuts-2017-billboard-1548-1024x677.jpg" width="500px" alt="songs" /></div>
+          <div class="text">Top Artists in 2020</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 9</div>
+          <div class ="center"><img src="https://static.billboard.com/files/media/michael-jackson-red-1986-live-billboard-1548-1024x677.jpg" width="500px"></div>
+          <div class="text">Michael Jackson</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 9</div>
+          <div class ="center"><img src="https://static.billboard.com/files/media/mariah-carey-live-smile-1995-billboard-1548-1024x677.jpg" width="500px" ></div>
+          <div class="text">Mariah Carey</div>
+
+        </div>
+
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 9</div>
+          <div class ="center"><img src="https://static.billboard.com/files/media/ariana-grande-press-photo-by-dave-meyers-2018-billboard-1548-1024x677.jpg" width="500px" ></div>
+          <div class="text">Ariana Grande</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 9</div>
+            <div class ="center"><img src="https://static.billboard.com/files/2020/08/BTS_group-2020-Big-Hit-Entertainment-billboard-1548-1597287734-768x508.jpg" width="500px" ></div>
+            <div class="text">BTS</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 9</div>
+          <div class ="center"><img src="https://static.billboard.com/files/2020/08/20-Cardi-B-WAP-feat.-Megan-Thee-Stallion-screenshot-2020-billboard-1548-1596825940-768x508.jpg" width="500px" ></div>
+          <div class="text">Cardi B</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 9</div>
+          <div class ="center"><img src="https://static.billboard.com/files/media/adele-hello-2015-music-video-still-2017-billboard-1548-1024x677.jpg" width="500px" ></div>
+          <div class="text">Adele</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 9</div>
+          <div class ="center"><img src="https://static.billboard.com/files/media/justin-bieber-defjam-press-2-2016-billboard-1548-650-1024x677.jpg" width="500px" ></div>
+          <div class="text">Justin Bieber</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">9 / 9</div>
+          <div class ="center"><img src="https://static.billboard.com/files/media/taylor-swift-live-2014-billboard-1240-767x1024.jpg" height="400px" ></div>
+          <div class="text">Taylor Swift</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+      </div>
+    <br>
+    <br>
+
+    <br>
+    <table border="2" cellpadding="3" cellspacing="0" style="width: 80%;margin:auto; background-color: white;">
+        <tr>
+            <th><b>Rank</b></th>
+            <th><b>Track</b></th>
+            <th><b>Artist</b></th>
+
+        </tr>
+        {% for row in topsongs %}
+        <tr>
+            <td>{{row[2]}}</td>
+            <td>{{row[0]}}</td>
+            <td>{{row[1]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+
+
+
+<footer>
+    <br>
+    <br>
+    <p><div class="center"> Jin-Seo Bae | <a href="mailto:jinbae@umich.edu"> jinbae@umich.edu</a></div></p>
+</footer>
+</html>
