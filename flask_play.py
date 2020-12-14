@@ -110,9 +110,7 @@ def detailedinfo():
 
         return render_template('detailedinfo.html',number=rank_number, detailedinfo=detailedinfo,spotify=spotify, plot_div=div)
     else:
-        return render_template('detailedinfo.html', 
-            number=rank_number, detailedinfo=detailedinfo,spotify=spotify)
-
+        return render_template('detailedinfo.html', number=rank_number, detailedinfo=detailedinfo,spotify=spotify)
 
 
 if __name__ == '__main__':
