@@ -5,7 +5,7 @@ SI 507 Final Project Jin-Seo Bae (jinbae)
 1. Both <strong>API</strong> and <strong>Secret Keys</strong> are in the main file called "main_FP.py".
 2. If user want to get most recent ranking and popularity scores from <strong>Spotify</strong>, user should remove csv file in this regitory and <strong> uncomment get_spotify_csv() </strong> and re-run main_FP.py.
 3. Then, user should run "flask_play.py" file in the terminal and open http://127.0.0.1:5000/ link.
-4. This will lead user to ![main page](https://drive.google.com/uc?export=view&id=115MMdl-JHBVcwXKiz4Nwd_prqMSCONO) of my final project.
+4. This will lead user to ![main page](https://drive.google.com/uc?export=view&id=115MMdl-JHBVcwXKiz4Nwd_prqMSCONO-) of my final project.
 5. User can ![choose](https://drive.google.com/uc?export=view&id=1iur-TcPlKvev9QjycW-19G6LfWrWQiOv) few different things.
 
     a. Billboard Scraping
