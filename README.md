@@ -1,6 +1,6 @@
 SI 507 Final Project Jin-Seo Bae (jinbae)
 
-[Demo Video Link](https://drive.google.com/file/d/1MTD5pLqiz6tpp5Lv766rimMc_n7P0CT8/view?usp=sharing)
+[Demo Video Link](https://drive.google.com/file/d/1nzG_v41dHEVO4QFt4V2e1rDjUSnRWyo-/view?usp=sharing)
 
 1. Both <strong>API</strong> and <strong>Secret Keys</strong> are in the main file called "main_FP.py".
 2. If user want to get most recent ranking and popularity scores from <strong>Spotify</strong>, user should remove csv file in this regitory and <strong> uncomment get_spotify_csv() </strong> and re-run main_FP.py.
