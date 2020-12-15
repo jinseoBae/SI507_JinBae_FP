@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF8"/>
+    <title>ARTIST-DETAIL</title>
+</head>
+
+<style> 
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: lightgray;
+        text-align: center;
+        }
+    p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+    }
+    table{
+        text-align: center;
+        border: 10px solid black;
+        background-color: white;
+    }
+    .box, #player{
+        text-align: center;
+        border: 10px solid black;
+        background-color: white;
+    }
+    th{
+        background-color: black;
+        color:white;
+    }
+</style>
+
+<body>
+    <h1>Detail Information: "{{detailedinfo[0][1]}}"✅</h1>
+    <p>1. <strong>{{detailedinfo[0][1]}}</strong>'s Songs on Billboard 🎙🎶</p>
+    <table border="1" cellpadding="3" cellspacing="0" style="width: 80%;margin:auto">
+        <tr>
+            <th>Artist</th>
+            <th>Song Title</th>
+            <th>Rank</th>
+        </tr>
+        {% for row in detailedinfo %}
+        <tr>
+            <td>{{row[1]}}</td>
+            <td>{{row[0]}}</td>
+            <td>{{row[2]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+<br>
+<br>
+<p>2. <strong>{{detailedinfo[0][1]}}</strong>'s Songs on Spotify 📻🎶</p>
+<table border="1" cellpadding="3" cellspacing="0" style="width: 80%;margin:auto">
+    <tr>
+        <th>Artist</th>
+        <th>Song Title</th>
+        <th>Popularity</th>
+    </tr>
+    {% for row in spotify %}
+    <tr>
+        <td>{{row[0]}}</td>
+        <td>{{row[1]}}</td>
+        <td>{{row[2]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<br>
+<br>
+
+<p>3. A Bar Chart to Compare Each Song's Popularity 👀📊</p>
+
+{{plot_div | safe}}
+
+<br>
+<br>
+
+<p>4. Top 💯 Songs on Billboard & Spotify⭐</p>
+
+<div id="bookingVideo"></div>
+
+   <div id="testing"></div>
+
+    <script>
+
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
+
+
+      var bookingVideo;
+      var testing;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('bookingVideo', {
+          height: '400',
+          width: '100%',
+          videoId: 'rBelp9rMxOg'
+        });
+        player = new YT.Player('testing', {
+          height: '400',
+          width: '100%',
+          videoId: 'aN7zAy9cjQ4'
+          
+        });
+      }
+
+
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+
+
+            function pauseVideo() {
+                player.pauseVideo();
+            }
+
+
+    </script>
+<footer>
+    <br>
+    <br>
+    <p><div class="center"> Jin-Seo Bae | <a href="mailto:jinbae@umich.edu"> jinbae@umich.edu</a></div></p>
+</footer>
+</html>
